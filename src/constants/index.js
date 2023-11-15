@@ -23,7 +23,8 @@ import {
   jobit,
   tripguide,
   chatty,
-  blog,
+  tiktik,
+  portfolio,
   threejs,
   earth,
   microsoft,
@@ -141,7 +142,7 @@ const experiences = [
     points: [
       "Developing a web app to identify the Winter Olympic mascots using React, Express and Azure APIs.",
       "Building an anomaly detector to detect abnormal temperatures",
-      "Verified about 20 Azure APIs and document relevant data.",
+      "Verifying about 20 Azure APIs and document relevant data.",
       "Attending regular meeting and summarising key content.",
     ],
   },
@@ -178,62 +179,78 @@ const projects = [
   {
     name: "Chatty",
     description:
-      "Web-based platform that allows users to create posts, chat with others, providing an insteresting real-time social network.",
+      "A web-based platform that allows users to create posts and chat with others, providing an interesting real-time social network.",
     tags: [
       {
         name: "MERN",
-        color: "blue-text-gradient",
+        color: "text-blue-300",
       },
       {
-        name: "AWS",
-        color: "green-text-gradient",
+        name: "AWS/Terraform",
+        color: "text-green-300",
+      },
+      {
+        name: "Redis",
+        color: "text-yellow-300",
       },
       {
         name: "Scss",
-        color: "pink-text-gradient",
+        color: "text-red-300",
       },
     ],
     image: chatty,
     source_code_link: "https://github.com/Ronin-Chan/Chatty_frontend",
   },
   {
-    name: "Blog",
+    name: "TikTik",
     description:
-      "My personal blog website for sharing my notes on technologies.",
+      "A social media website that allows users to share, comment on, and like videos, including advanced search, suggested accounts, and much more.",
     tags: [
       {
-        name: "VuePress",
-        color: "blue-text-gradient",
+        name: "Next.js",
+        color: "text-blue-300",
       },
       {
-        name: "Markdown",
-        color: "green-text-gradient",
+        name: "Sanity",
+        color: "text-green-300",
+      },
+      {
+        name: "Google OAuth",
+        color: "text-yellow-200",
+      },
+      {
+        name: "Tailwind",
+        color: "text-red-300",
       },
     ],
-    image: blog,
-    source_code_link: "https://github.com/Ronin-Chan/Blog",
+    image: tiktik,
+    source_code_link: "https://github.com/Ronin-Chan/TikTik",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Portfolio",
+    description:
+      "A 3D Developer Portfolio using 3D graphics and animations to bring content to life.",
+    tags: [
+      {
+        name: "Vite.js/React",
+        color: "text-blue-300",
+      },
+      {
+        name: "Three.js",
+        color: "text-green-300",
+      },
+      {
+        name: "EmailJS",
+        color: "text-yellow-300",
+      },
+      {
+        name: "Tailwind",
+        color: "text-red-300",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/Ronin-Chan/Portfolio_3D",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
