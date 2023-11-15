@@ -32,7 +32,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import chatty from "./chatty.png";
-import blog from "./blog.jpg";
+import tiktik from "./tiktik.jpg";
+import portfolio from "./portfolio.jpg";
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   earth,
   microsoft,
   chatty,
-  blog,
+  tiktik,
+  portfolio,
 };
