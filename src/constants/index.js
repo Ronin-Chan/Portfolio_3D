@@ -28,6 +28,7 @@ import {
   threejs,
   earth,
   microsoft,
+  gpt,
 } from "../assets";
 
 export const navLinks = [
@@ -250,6 +251,31 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/Ronin-Chan/Portfolio_3D",
+  },
+  {
+    name: "Portfolio",
+    description:
+      "A 3D Developer Portfolio using 3D graphics and animations to bring content to life.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "text-blue-300",
+      },
+      {
+        name: "Firebase",
+        color: "text-green-300",
+      },
+      {
+        name: "ChatGPT API",
+        color: "text-yellow-300",
+      },
+      {
+        name: "Tailwind",
+        color: "text-red-300",
+      },
+    ],
+    image: gpt,
+    source_code_link: "https://github.com/Ronin-Chan/ChatGPT_clone",
   },
 ];
 
