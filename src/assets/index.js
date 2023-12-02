@@ -34,6 +34,7 @@ import tripguide from "./tripguide.png";
 import chatty from "./chatty.png";
 import tiktik from "./tiktik.jpg";
 import portfolio from "./portfolio.jpg";
+import gpt from "./gpt.jpg";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   chatty,
   tiktik,
   portfolio,
+  gpt
 };
