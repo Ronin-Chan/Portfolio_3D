@@ -253,9 +253,9 @@ const projects = [
     source_code_link: "https://github.com/Ronin-Chan/Portfolio_3D",
   },
   {
-    name: "Portfolio",
+    name: "ChatGPT Clone",
     description:
-      "A 3D Developer Portfolio using 3D graphics and animations to bring content to life.",
+      "A ChatGPT clone that allows users to select an AI model, chat with GPT, and sign in via Google OAuth.",
     tags: [
       {
         name: "Next.js",
