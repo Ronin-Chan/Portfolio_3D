@@ -35,6 +35,7 @@ import chatty from "./chatty.png";
 import tiktik from "./tiktik.jpg";
 import portfolio from "./portfolio.jpg";
 import gpt from "./gpt.jpg";
+import car from "./car.jpg";
 
 export {
   logo,
@@ -70,5 +71,6 @@ export {
   chatty,
   tiktik,
   portfolio,
-  gpt
+  gpt,
+  car,
 };
