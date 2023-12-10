@@ -29,6 +29,7 @@ import {
   earth,
   microsoft,
   gpt,
+  car,
 } from "../assets";
 
 export const navLinks = [
@@ -255,7 +256,7 @@ const projects = [
   {
     name: "ChatGPT Clone",
     description:
-      "A ChatGPT clone that allows users to select an AI model, chat with GPT, and sign in via Google OAuth.",
+      "A ChatGPT clone project allows users to select an AI model, chat with GPT, and sign in via Google OAuth.",
     tags: [
       {
         name: "Next.js",
@@ -276,6 +277,27 @@ const projects = [
     ],
     image: gpt,
     source_code_link: "https://github.com/Ronin-Chan/ChatGPT_clone",
+  },
+  {
+    name: "Car Showcase",
+    description:
+      "This car showcase project allows users to search for cars by brand or type and view detailed information about the vehicle.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "text-blue-300",
+      },
+      {
+        name: "APIs",
+        color: "text-yellow-300",
+      },
+      {
+        name: "Tailwind",
+        color: "text-red-300",
+      },
+    ],
+    image: car,
+    source_code_link: "https://github.com/Ronin-Chan/Car-showcase",
   },
 ];
 
