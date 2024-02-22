@@ -35,6 +35,7 @@ import chatty from "./chatty.png";
 import tiktik from "./tiktik.jpg";
 import portfolio from "./portfolio.jpg";
 import gpt from "./gpt.jpg";
+import quill from "./quill.png";
 import car from "./car.jpg";
 
 export {
@@ -72,5 +73,6 @@ export {
   tiktik,
   portfolio,
   gpt,
+  quill,
   car,
 };

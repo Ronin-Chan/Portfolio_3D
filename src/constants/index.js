@@ -29,6 +29,7 @@ import {
   earth,
   microsoft,
   gpt,
+  quill,
   car,
 } from "../assets";
 
@@ -279,9 +280,34 @@ const projects = [
     source_code_link: "https://github.com/Ronin-Chan/ChatGPT_clone",
   },
   {
+    name: "Quill",
+    description:
+      "An AI-driven project allows users to have conversations with any PDF document",
+    tags: [
+      {
+        name: "Next.js",
+        color: "text-blue-300",
+      },
+      {
+        name: "Prisma",
+        color: "text-green-300",
+      },
+      {
+        name: "Pinecone",
+        color: "text-yellow-300",
+      },
+      {
+        name: "tRPC",
+        color: "text-red-300",
+      },
+    ],
+    image: quill,
+    source_code_link: "https://github.com/Ronin-Chan/Quill",
+  },
+  {
     name: "Car Showcase",
     description:
-      "This car showcase project allows users to search for cars by brand or type and view detailed information about the vehicle.",
+      "A car showcase project allows users to search for cars and view information about vehicles.",
     tags: [
       {
         name: "Next.js",
