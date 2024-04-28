@@ -28,6 +28,7 @@ import {
   threejs,
   earth,
   microsoft,
+  ciilock,
   gpt,
   quill,
   car,
@@ -124,29 +125,40 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Development Intern",
-    company_name: "Dongguan Guangkida Electronic Technology Co., LTD",
+    title: "Software Engineer",
+    company_name: "CiiLOCK Engineering",
+    icon: ciilock,
+    iconBg: "#000000",
+    date: "Nov 2023 - Present",
+    points: [
+      "Contributed to the full stack redevelopment of a web application utilised for controlling machines within the testing laboratory, ensuring its functionality and user experience aligned with project requirements.",
+      "Developed the company's official website based on a Figma prototype, translating design concepts into a functional website to enhance the company's online presence.",
+      "Implemented a program to enable secondary processing of data derived from files exported from thermal simulation software (THERM), improving data utilisation during follow-up inspections.",
+      "Developed an automated program to utilise THERM for matching models with glass and accurately recording the corresponding data into a database file of WINDOW software.",
+      "Conducted web scraping to extract and process a diverse range of resources that contribute to the company's business growth."
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Kwong Kei Tat Technology Co., Ltd.",
     icon: earth,
     // iconBg: "#383E56",
     iconBg: "#000000",
     date: "Jul 2022 - Aug 2022",
     points: [
-      "Secondary development of an employee information system using React, Spring Boot and other related technologies.",
-      "Identifying and solving existing faults in the system.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to make sure high-quality.",
+      "Developed a dynamic tagging functionality within the employee information system, enabling managers to assign multiple tags or attributes to each employee, streamlining resource allocation and talent management.",
+      "Identified and resolved existing system issues, including fixing broken links, thereby improving overall system reliability and user experience.",
     ],
   },
   {
-    title: "Assistant Intern",
+    title: "Assistant",
     company_name: "Microsoft (Guangzhou)",
     icon: microsoft,
     iconBg: "#000000",
     date: "Jan 2022 - Feb 2022",
     points: [
-      "Developing a web app to identify the Winter Olympic mascots using React, Express and Azure APIs.",
-      "Building an anomaly detector to detect abnormal temperatures",
-      "Verifying about 20 Azure APIs and document relevant data.",
-      "Attending regular meeting and summarising key content.",
+      "Developed a website to identify Winter Olympic mascots and an anomaly detector for detecting abnormal temperatures, both demonstrating proficiency in Azure API integration.",
+      "Verified and documented approximately 20 Azure APIs, ensuring their reliability, and documenting relevant data for future reference.",
     ],
   },
 ];
