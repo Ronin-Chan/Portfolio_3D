@@ -27,7 +27,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import earth from "./company/earth.png";
 import microsoft from "./company/microsoft.png"
-import ciilock from "./company/ciilock.jpg";
+import ciilock from "./company/ciilock.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";

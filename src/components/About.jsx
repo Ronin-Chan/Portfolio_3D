@@ -50,7 +50,7 @@ const About = () => {
         I'm a student @ UniMelb and a software developer with experience in TypeScript, Java and Python, and knowledge of frameworks like Next.js, Express, and Sprint Boot. I'm a quick learner and have collaborated with teammates to develop several software projects that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-24'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

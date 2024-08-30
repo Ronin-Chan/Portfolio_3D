@@ -51,10 +51,6 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Master of Software Engineering",
-    icon: web,
-  },
-  {
     title: "Web Developer",
     icon: mobile,
   },
@@ -129,17 +125,28 @@ const experiences = [
     company_name: "CiiLOCK Engineering",
     icon: ciilock,
     iconBg: "#000000",
-    date: "Nov 2023 - Present",
+    date: "May 2024 - Present",
     points: [
-      "Contributed to the full stack redevelopment of a web application utilised for controlling machines within the testing laboratory, ensuring its functionality and user experience aligned with project requirements.",
-      "Developed the company's official website based on a Figma prototype, translating design concepts into a functional website to enhance the company's online presence.",
-      "Implemented a program to enable secondary processing of data derived from files exported from thermal simulation software (THERM), improving data utilisation during follow-up inspections.",
-      "Developed an automated program to utilise THERM for matching models with glass and accurately recording the corresponding data into a database file of WINDOW software.",
-      "Conducted web scraping to extract and process a diverse range of resources that contribute to the company's business growth."
+      "Developed and optimised automation programs for WERS to improve the reliability and usability of programs for use by non-IT personnel, ensuring code security and enhancing overall process efficiency.",
+      "Assisted in developing a web-based door customisation application, allowing customers to visually build and configure doors with real-time updates.",
+      "Conducted data scraping to extract and process diverse resources that contribute to the company's business growth."
     ],
   },
   {
-    title: "Software Developer",
+    title: "Software Engineer Intern",
+    company_name: "CiiLOCK Engineering",
+    icon: ciilock,
+    iconBg: "#000000",
+    date: "Nov 2023 - May 2024",
+    points: [
+      "Contributed to the full stack redevelopment of a web application utilised for controlling machines within the testing laboratory, ensuring its functionality and user experience aligned with project requirements.",
+      "Assisted in the company's official website based on a Figma prototype, translating design concepts into a functional website to enhance the company's online presence.",
+      "Implemented a program to enable secondary processing of data derived from files exported from thermal simulation software (THERM), improving data utilisation during follow-up inspections.",
+      "Developed an automated program to utilise THERM for matching models with glass and accurately recording the corresponding data into a database file of WINDOW software."
+    ],
+  },
+  {
+    title: "Web Developer Intern",
     company_name: "Kwong Kei Tat Technology Co., Ltd.",
     icon: earth,
     // iconBg: "#383E56",
@@ -151,14 +158,14 @@ const experiences = [
     ],
   },
   {
-    title: "Assistant",
+    title: "Test Engineer Intern",
     company_name: "Microsoft (Guangzhou)",
     icon: microsoft,
     iconBg: "#000000",
     date: "Jan 2022 - Feb 2022",
     points: [
-      "Developed a website to identify Winter Olympic mascots and an anomaly detector for detecting abnormal temperatures, both demonstrating proficiency in Azure API integration.",
-      "Verified and documented approximately 20 Azure APIs, ensuring their reliability, and documenting relevant data for future reference.",
+      "Conducted comprehensive testing on a website implementing image recognition technology and an anomaly detector, focusing on Azure API integration to ensure accuracy and reliability.",
+      "Verified and documented approximately 20 Azure APIs, ensuring their reliability, and reporting relevant data for future reference",
     ],
   },
 ];
@@ -217,31 +224,6 @@ const projects = [
     source_code_link: "https://github.com/Ronin-Chan/Chatty_frontend",
   },
   {
-    name: "TikTik",
-    description:
-      "A social media website that allows users to share, comment on, and like videos, including advanced search, suggested accounts, and much more.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "text-blue-300",
-      },
-      {
-        name: "Sanity",
-        color: "text-green-300",
-      },
-      {
-        name: "Google OAuth",
-        color: "text-yellow-200",
-      },
-      {
-        name: "Tailwind",
-        color: "text-red-300",
-      },
-    ],
-    image: tiktik,
-    source_code_link: "https://github.com/Ronin-Chan/TikTik",
-  },
-  {
     name: "Portfolio",
     description:
       "A 3D Developer Portfolio using 3D graphics and animations to bring content to life.",
@@ -265,31 +247,6 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/Ronin-Chan/Portfolio_3D",
-  },
-  {
-    name: "ChatGPT Clone",
-    description:
-      "A ChatGPT clone project allows users to select an AI model, chat with GPT, and sign in via Google OAuth.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "text-blue-300",
-      },
-      {
-        name: "Firebase",
-        color: "text-green-300",
-      },
-      {
-        name: "ChatGPT API",
-        color: "text-yellow-300",
-      },
-      {
-        name: "Tailwind",
-        color: "text-red-300",
-      },
-    ],
-    image: gpt,
-    source_code_link: "https://github.com/Ronin-Chan/ChatGPT_clone",
   },
   {
     name: "Quill",
@@ -317,25 +274,29 @@ const projects = [
     source_code_link: "https://github.com/Ronin-Chan/Quill",
   },
   {
-    name: "Car Showcase",
+    name: "TikTik",
     description:
-      "A car showcase project allows users to search for cars and view information about vehicles.",
+      "A social media website that allows users to share, comment on, and like videos, including advanced search, suggested accounts, and much more.",
     tags: [
       {
         name: "Next.js",
         color: "text-blue-300",
       },
       {
-        name: "APIs",
-        color: "text-yellow-300",
+        name: "Sanity",
+        color: "text-green-300",
+      },
+      {
+        name: "Google OAuth",
+        color: "text-yellow-200",
       },
       {
         name: "Tailwind",
         color: "text-red-300",
       },
     ],
-    image: car,
-    source_code_link: "https://github.com/Ronin-Chan/Car-showcase",
+    image: tiktik,
+    source_code_link: "https://github.com/Ronin-Chan/TikTik",
   },
 ];
 
